@@ -10,6 +10,7 @@ class ViewRoomDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_view_room_detail)
 
+
         val room = intent.getSerializableExtra("roomData") as RoomData
 
         priceTxt.text = room.getFormattedPrice()
