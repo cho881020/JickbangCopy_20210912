@@ -21,6 +21,7 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/priceTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
@@ -28,6 +29,7 @@
             android:text="가격 자리" />
 
         <TextView
+            android:id="@+id/descriptionTxt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -67,6 +69,7 @@
                 android:layout_weight="1" />
 
             <TextView
+                android:id="@+id/addressTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="실제 주소"
@@ -99,6 +102,7 @@
                 android:layout_weight="1" />
 
             <TextView
+                android:id="@+id/floorTxt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="실제 층수"
