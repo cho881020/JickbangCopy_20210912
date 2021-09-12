@@ -16,9 +16,12 @@ class RoomData(
 //        양수 / 0층 / -층 에 따라 다른 층수로 가공.
 
         if (this.floor > 0) {
+            
+//            양수일때 : ?층 형태로 가공
             return "${this.floor}층"
         }
         else if (this.floor == 0) {
+//            0층 : 무조건 반지하로 가공
             return "반지하"
         }
         else {
